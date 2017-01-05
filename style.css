@@ -95,7 +95,7 @@ a:focus,
 a:focus,
 a:hover {
     color: #888888;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 a,
 button {
