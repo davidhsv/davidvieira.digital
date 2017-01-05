@@ -1,6 +1,0 @@
-[submodule "guidelife2"]
-	path = guidelife2
-	url = https://github.com/davidhsv/guidelife2.git
-[submodule "guidelife"]
-	path = guidelife
-	url = https://github.com/davidhsv/guidelife.git
