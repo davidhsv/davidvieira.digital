@@ -43,6 +43,8 @@
   
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico" rel="shortcut icon" type="image/x-icon">
   <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+
+  <link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">  
 </head>
 <body class="bdy" style="overflow: hidden;">
   <div class="preloader" data-ix="preloader">
@@ -65,6 +67,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" defer></script>
   <script src="js/modernizr.js" type="text/javascript" defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript" defer></script>
+  <script type="text/javascript" src="js/YouTubePopUp.jquery.js" defer ></script>
+  <script type="text/javascript" src="js/YoutubleEnableClassScript.js" defer ></script>
   <script src="js/webflow_v0.2.js" type="text/javascript" defer></script>
   <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
   
@@ -158,12 +162,14 @@
               <div class="slider__container transparente stabilizeVH">
                 <div class="pag-3__slider__cards">
                   <div class="pag-3__slider__card">
-                    <div class="pag3__slider__card__content"><img class="pag-3__slider__card__image" src="images/card_pessoa1.png">
-                      <div class="pag-3__slider__card__content__textos">
-                        <h1 class="pag3__slider__card__content__header">Paulo Freire</h1>
-                        <div class="pag-3__slider__card__content__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a vehicula orci.</div>
+                    <a class="video link-video"  href="https://vimeo.com/155813398">
+                      <div class="pag3__slider__card__content"><img class="pag-3__slider__card__image" src="images/card_pessoa1.png">
+                        <div class="pag-3__slider__card__content__textos">
+                          <h1 class="pag3__slider__card__content__header">Paulo Freire</h1>
+                          <div class="pag-3__slider__card__content__texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus a vehicula orci.</div>
+                        </div>
                       </div>
-                    </div>
+                    </a>
                   </div>
                   <div class="pag-3__slider__card">
                     <div class="pag3__slider__card__content"><img class="pag-3__slider__card__image" src="images/card_pessoa1.png">
@@ -358,25 +364,46 @@
           <a class="onpressedtab4 pag-7__tablink w-inline-block w-tab-link" data-w-tab="Tab 4">
             <div class="pag-7__tablink__texto">Como eu chego aonde eu preciso chegar?</div>
           </a>
-          <a class="noborder onpressedtab5 pag-7__tablink w-inline-block w-tab-link" data-w-tab="Tab 5">
-            <div class="pag-7__tablink__texto">Como eu penso/sinto o dinheiro?</div>
-          </a>
         </div>
         <div class="pag-7__tabs__content w-tab-content">
           <div class="w--tab-active w-tab-pane" data-w-tab="Tab 1">
-            <div class="pag7__tab1__content__texto">Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            <div class="pag7__tab1__content__texto">
+
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+              <div class="pag7__tab1__content__texto_colunas_borda"></div>
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+              
+            </div>  
+              
           </div>
           <div class="w-tab-pane" data-w-tab="Tab 2">
-            <div class="pag7__tab1__content__texto">Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            <div class="pag7__tab1__content__texto">
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+              <div class="pag7__tab1__content__texto_colunas_borda"></div>
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>  
+            </div>
           </div>
           <div class="w-tab-pane" data-w-tab="Tab 3">
-            <div class="pag7__tab1__content__texto">Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            <div class="pag7__tab1__content__texto">
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+              <div class="pag7__tab1__content__texto_colunas_borda"></div>
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            </div>
           </div>
           <div class="w-tab-pane" data-w-tab="Tab 4">
-            <div class="pag7__tab1__content__texto">Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
-          </div>
-          <div class="w-tab-pane" data-w-tab="Tab 5">
-            <div class="pag7__tab1__content__texto">Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            <div class="pag7__tab1__content__texto">
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+              <div class="pag7__tab1__content__texto_colunas_borda"></div>
+              <div class="pag7__tab1__content__texto_colunas">
+              Entenda o que o dinheiro realmente significa para você. Antes de começar o seu Planejamento, é essencial entender melhor como você enxerga sua vida financeira e qual a sua tolerância ao risco. Saberemos quais dificuldades e virtudes o seu DNA possui e como você pode melhorar os seus resultados de forma confortável.</div>
+            </div>
           </div>
         </div>
       </div>
@@ -428,9 +455,26 @@
       </style>
     </div>
   </div>
-  <div class="footer stabilizeVH"><a class="footer__button w-button" href="#">Quero ser um franqueado</a>
+  <div class="footer stabilizeVH">
+    <div class="footer__center">
+      <div class="footer__parceiros">
+        <div class="footer__parceiro1">
+          <div class="footer__texto" style="
+              position: relative;
+              top: 10px;
+        ">Empresa associada à:</div><img class="margin-mobile" src="images/Planejar_marca_negativ2_resized_png-8.png" pagespeed_url_hash="1881686003" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" style="
+              position: relative;
+              top: -10px;
+          ">
+        </div>
+        <!--
+        <div class="footer__parceiro-outros"><img class="footer__parceiro__img" src="images/Planejar_marca_negativ2_resized_png-8.png">
+        </div>
+        -->
+      </div><a class="footer_button w-button">Seja um franqueado</a>
+    </div>
   </div>
   <script src="js/paraxify.min.js" type="text/javascript" defer></script>
 </body>
 </html>
-<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">  
